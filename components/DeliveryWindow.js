@@ -47,7 +47,7 @@ class DeliveryWindow extends React.Component {
                         <ul className="conditions__list">
                             <li className="conditions--item"> <div className="red__round"> </div> <span>Заказ от 1500₽ по городу бесплатно.</span></li>
                             <li className="conditions--item"> <div className="red__round"> </div> <span>Доставка работает с 11:00 до 24:00.</span></li>
-                            <li className="conditions--item"> <div className="red__round"> </div> <span>При заказе с сайта, шампур картошки <br></br> в подарок.</span></li>
+                            <li className="conditions--item"> <div className="red__round double__string__position"> </div> <span>При заказе с сайта, шампур картошки <br></br> в подарок.</span></li>
                         </ul>
 
                     </div>

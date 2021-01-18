@@ -46,6 +46,12 @@
 }
 .conditions--item span {
   margin-left: 16px;
+  line-height: 1;
+}
+
+.double__string__position {
+  position: relative;
+  top: -13px;
 }
 
 .red__round {
@@ -56,6 +62,18 @@
   background-image: -webkit-linear-gradient( 90deg, rgb(180,20,20) 0%, rgb(248,84,84) 100%);
   background-image: -ms-linear-gradient( 90deg, rgb(180,20,20) 0%, rgb(248,84,84) 100%);
   align-self: center;
+}
+
+@media (max-width: 1150px) {
+  .order__conditions {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .additional__delivery {
+    background: none;
+  }
 }
 
 

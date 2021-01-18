@@ -22,17 +22,19 @@ componentWillUnmount() {
 
 scroll() {
     const addressMenu = document.querySelector('#show--header');
-    const header = document.querySelector('.header');
+    // const header = document.querySelector('.header');
+    const header = document.querySelector('header');
     if (!addressMenu) return;
-    if (pageYOffset > 0) {
-        addressMenu.classList.add('--not__show');
-
-        header.classList.remove('additional__menu__black__ground');
-        document.querySelector('header').classList.add('header--mini');
-    } else if (pageYOffset <= 100) {
-        addressMenu.classList.remove('--not__show');
-        header.classList.add('additional__menu__black__ground');
-        document.querySelector('header').classList.remove('header--mini');
+    if (pageYOffset > 150) {
+        header.style.top = '-125px'
+        // addressMenu.classList.add('--not__show');
+        // header.classList.remove('additional__menu__black__ground');
+        // document.querySelector('header').classList.add('header--mini');
+    } else if (pageYOffset <= 149) {
+        header.style.top = '0px'
+        // addressMenu.classList.remove('--not__show');
+        // header.classList.add('additional__menu__black__ground');
+        // document.querySelector('header').classList.remove('header--mini');
     }
 }
 
