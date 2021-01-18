@@ -20,26 +20,6 @@ componentWillUnmount() {
     window.removeEventListener('scroll', this.scroll);
 }
 
-scroll() {
-    // const addressMenu = document.querySelector('#show--header');
-    // // const header = document.querySelector('.header');
-    // const header = document.querySelector('header');
-    // if (!addressMenu) return;
-    // if (pageYOffset > 100) {
-    //     header.style.top = '-125px'
-    //     // addressMenu.classList.add('--not__show');
-    //     // header.classList.remove('additional__menu__black__ground');
-    //     // document.querySelector('header').classList.add('header--mini');
-    // } else if (pageYOffset <= 99) {
-    //     header.style.top = '0px'
-    //     // addressMenu.classList.remove('--not__show');
-    //     // header.classList.add('additional__menu__black__ground');
-    //     // document.querySelector('header').classList.remove('header--mini');
-    // }
-}
-
-
-
 render() {
 
     return (
@@ -105,7 +85,7 @@ render() {
                                     <Link href="/about-cafe"><a className="navigation__link" data-link='#about' >О кафе</a></Link>
                                 </li>
                                 <li className="navigation__item">
-                                    <Link href="/menu-out-side"><a className="navigation__link" data-link='#menu-out-side'>Меню на вынос доставка</a></Link>
+                                    <Link href="/menu-out-side"><a className="navigation__link" data-link='#menu-out-side'>Меню на вынос.&nbsp;Доставка</a></Link>
                                 </li>
                                 <li className="navigation__item">
                                     <Link href="/menu"><a className="navigation__link" data-link='#menu'>Меню</a></Link>

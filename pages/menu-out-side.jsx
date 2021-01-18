@@ -7,7 +7,7 @@ import { rootAPI } from '../API/rootApi';
 
 const MenuOutSidePage = ({ res }) => {
 
-  const title = 'Доставка шашлыка по Астрахани';
+  const title = 'Доставка шашлыка в Астрахани';
 
   const [prelouder, setPrelouder] = useState(false);
 

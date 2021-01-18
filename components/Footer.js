@@ -12,7 +12,7 @@ class Footer extends React.Component {
                         <Link href='/about-cafe'><a className="navigation__link" data-link='#about' >О кафе</a></Link>        
                         </li>
                         <li className="navigation__item">
-                        <Link href="/menu-out-side"><a  className="navigation__link" data-link='#menu-out-side'>Меню на вынос, доставка</a></Link>          
+                        <Link href="/menu-out-side"><a  className="navigation__link" data-link='#menu-out-side'>Меню на вынос.&nbsp;Доставка</a></Link>          
                         </li>
                         <li className="navigation__item">
                         <Link href="/menu"><a  className="navigation__link" data-link='#menu'>Меню</a></Link>          
