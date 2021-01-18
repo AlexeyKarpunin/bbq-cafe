@@ -42,10 +42,14 @@
       display: flex;
       font-size: 25px;
       line-height: 1.5;
+      span {
+        margin-left: 16px;
+
+      }
     }
 }
-.conditions--item span {
-  margin-left: 16px;
+
+.conditions--text {
   line-height: 1;
 }
 
